@@ -1,0 +1,12 @@
+server:
+  port: 8080 #端口
+spring:
+  application:
+    name: api-zuul-server #服务名称
+  ##路由配置
+zuul:
+  routes:
+  #已商品微服务
+   product-service: #路由id,随便写
+    path: /product-service/** #映射路径  #localhost:8080/product-service/sxxssds
+    url: http://127.0.0.1:9001
