@@ -13,6 +13,7 @@
         <module>order_service</module>
         <module>eureka_server</module>
         <module>api_zuul_server</module>
+        <module>api_gateway_server</module>
     </modules>
 
     <parent>
