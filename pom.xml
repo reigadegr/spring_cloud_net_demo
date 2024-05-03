@@ -12,6 +12,7 @@
         <module>product_service</module>
         <module>order_service</module>
         <module>eureka_server</module>
+        <module>eureka_server8000</module>
         <module>api_zuul_server</module>
         <module>api_gateway_server</module>
     </modules>
@@ -45,7 +46,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
 
 
     <dependencyManagement>
