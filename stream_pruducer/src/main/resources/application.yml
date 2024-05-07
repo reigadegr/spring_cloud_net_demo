@@ -1,0 +1,17 @@
+server:
+  port: 7001 #端口
+spring:
+  application:
+    name: rabbitmq-producer #服务名称
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: huike-default
+      binders:
+       defaultRabbit:
+        type: rabbit

@@ -1,0 +1,18 @@
+server:
+ port: 7002 #服务端口
+spring:
+  application:
+    name: rabbitmq-consumer #指定服务名
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        input:
+          #读取慧科default的数据
+          destination: huike-default
+      binders:
+       defaultRabbit:
+        type: rabbit
