@@ -7,14 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api_zuul_server" />
         <module name="stream_pruducer" />
         <module name="eureka_server8000" />
-        <module name="order_service" />
         <module name="api_gateway_server" />
-        <module name="eureka_server" />
         <module name="stream_consumer" />
-        <module name="product_service" />
       </profile>
     </annotationProcessing>
   </component>
